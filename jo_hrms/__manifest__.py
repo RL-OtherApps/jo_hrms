@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 {
     'name':'Jordanian HRMS Localization',
-    'version': '0.1',
+    'version': '12.0',
     'category': 'hr',
     'summary': 'Calculate Income Tax,Social Security, and Health Insurance',
-    'description': "",
+    'description': "Jordan Localization",
     'author': 'Ahmad Ibraheem',
     'depends': ['hr','hr_contract','hr_payroll' ,'account'],
     'data': ['views/jo_hrms_view.xml',
@@ -14,8 +14,13 @@
              'security/jo_hrms_security.xml',
                 ],
     'demo': ['data/jo_hrms_demo.xml'],
-
+    'images': ["static/description/icon.png"],
+    'license': "AGPL-3",
+    'price':'50',
+    'currency':'USD',
+    
     'installable': True,
     'auto_install': False,
 }
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
+
