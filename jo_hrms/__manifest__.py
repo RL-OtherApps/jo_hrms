@@ -5,7 +5,7 @@
     'category': 'hr',
     'summary': 'Calculate Income Tax,Social Security, and Health Insurance',
     'description': "Jordan Localization",
-    'author': 'Ahmad Ibraheem',
+    'author': 'Ahmad',
     'depends': ['hr','hr_contract','hr_payroll' ,'account'],
     'data': ['views/jo_hrms_view.xml',
              'views/jo_hrms_payroll.xml',
