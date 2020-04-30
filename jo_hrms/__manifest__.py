@@ -18,7 +18,7 @@
     'license': "AGPL-3",
     'price':'50',
     'currency':'USD',
-    
+    'email': 'odoo.ahmad.20@gmail.com',
     'installable': True,
     'auto_install': False,
 }
